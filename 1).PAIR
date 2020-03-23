@@ -10,3 +10,15 @@ cout<<p.first.first<<" "<<p.second.first<<" "<<p.second.second;
     
 }
  
+//2nd program
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    vector<pair<int,int>>v1;
+    v1.push_back({1,2});
+    v1.push_back({3,4});
+    cout<<v1[0].first<<" "<<v1[1].second;    
+}
