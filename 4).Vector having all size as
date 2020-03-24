@@ -10,3 +10,5 @@ int main()
         cout<<vec[i]<<"\n";
     }
 }
+for size use 
+cout<<vec.size();
