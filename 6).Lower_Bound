@@ -1,0 +1,3 @@
+int a[5]={1,2,3,4,5};
+    int x=lower_bound(a,a+5,5)-a;
+    cout<<x<<"\n";
