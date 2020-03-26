@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    queue<int>que ;
+    que.push(5);
+    que.push(6);
+    while(que.empty()==false)
+    {
+        cout<<que.front();
+        que.pop();
+    }
+}
