@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int a[20],i;
+    a[0]=3;
+    a[1]=2;
+    a[2]=5;
+    sort(a,a+3);
+    for(i=0;i<3;++i)
+    {
+        cout<<a[i]<<"\n";
+    }
+}
