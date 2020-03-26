@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    vector<vector<int>>vec(5,vector<int>(4,0));//it is initialising a 2D vector of n rows and m coloums and assigns the vaue as 0;
+    vec[0].push_back(5);
+    vec[0].push_back(6);
+    vec[1].push_back(7);
+    vec[3].push_back(5);
+    cout<<vec[0][0]<<vec[0][1];//the output will 
+    cout<<vec[1][0]<<" ";
+    cout<<vec[3][0]<<" ";
+    return 0;
+}
