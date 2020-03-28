@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+ #include <bits/stdc++.h>
 
 using namespace std;
 
@@ -7,7 +7,9 @@ int main()
     set<int>st;
     st.insert(1);
     st.insert(1);
+    st.insert(2);
     cout<<st.size();
+    cout<<st.count(2);
 
     return 0;
 }
